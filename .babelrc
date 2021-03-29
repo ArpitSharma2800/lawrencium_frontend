@@ -1,6 +1,7 @@
 {
   "presets": [
     [
+      
       "@babel/preset-env",
       {
         "modules": false,
@@ -25,6 +26,9 @@
     "@babel/plugin-transform-react-jsx",
     "@babel/transform-runtime",
     "@babel/plugin-transform-react-jsx-source",
-    "@babel/plugin-syntax-jsx"
+    "@babel/plugin-syntax-jsx",
+    "@babel/plugin-transform-modules-commonjs",
+    "@babel/plugin-syntax-module-string-names",
+    "@babel/plugin-syntax-dynamic-import"
   ]
 }

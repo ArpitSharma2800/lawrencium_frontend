@@ -1,10 +1,13 @@
 import React from "react";
-import "./App.css";
 import Home from "./Components/homePage/home.jsx";
+import './App.css'
+import DataGridDemo from "./Components/homePage/src/Table/table.jsx";
+import XGridDemo from "./Components/homePage/src/Table/table.jsx";
 export default function App() {
   return (
-    <div className="App">
+    <div >
       <Home />
+      {/* <DataGridDemo /> */}
     </div>
   );
 }
